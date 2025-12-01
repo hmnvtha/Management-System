@@ -1,0 +1,1 @@
+This is a lightweight microservices project built using Java 17, Spring Boot, and MySQL to demonstrate simple event-sourcing concepts. It consists of two services: the order-service, which accepts and confirms orders by persisting order events such as CREATED and CONFIRMED, and the shipping-service, which records shipping events like SHIPPED and DELIVERED through HTTP endpoints.
